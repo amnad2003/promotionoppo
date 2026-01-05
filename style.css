@@ -1,69 +1,136 @@
-*{box-sizing:border-box}
+:root{
+  --bg:#f5f7f6;
+  --card:#ffffff;
+  --accent:#1fbf9a;      /* OPPO Green */
+  --accent-dark:#119c7e;
+  --text:#1c1e21;
+  --muted:#6b7280;
+}
+
+*{
+  box-sizing:border-box;
+  font-family:"Segoe UI","Noto Sans Thai",system-ui,sans-serif;
+}
 
 body{
   margin:0;
-  font-family:Segoe UI,Tahoma;
-  background:#f1f5f9;
+  background:linear-gradient(180deg,#f7faf9,#eef3f1);
+  color:var(--text);
 }
 
-.top{
-  background:linear-gradient(135deg,#22c55e,#16a34a);
-  color:#fff;
-  padding:16px;
-  text-align:center;
-}
-
-select{
-  width:100%;
-  margin-top:10px;
-  padding:12px;
-  border-radius:12px;
-  border:none;
-  font-size:16px;
-}
-
-main{
-  padding:16px;
-}
-
-.product{
-  background:#fff;
-  border-radius:18px;
-  padding:16px;
-  margin-bottom:16px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-.product h2{
-  margin-top:0;
-  color:#16a34a;
-}
-
-.price{
+/* ===== HEADER ===== */
+header.top{
+  padding:24px;
+  background:linear-gradient(135deg,#1fbf9a,#6be6c1);
   display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  align-items:center;
   justify-content:space-between;
-  padding:8px 0;
-  border-bottom:1px solid #eee;
+  box-shadow:0 6px 20px rgba(0,0,0,.15);
 }
 
-.promo{
-  list-style:none;
-  padding:0;
-  margin-top:10px;
+header h1{
+  margin:0;
+  font-size:24px;
+  color:#fff;
+  font-weight:700;
+  letter-spacing:.5px;
 }
 
-.promo li{
-  background:#ecfdf5;
-  color:#047857;
-  padding:6px 10px;
-  border-radius:8px;
-  margin-bottom:6px;
+.controls{
+  display:flex;
+  gap:10px;
+}
+
+select,
+input{
+  padding:12px 16px;
+  background:#fff;
+  color:#111;
+  border:1px solid #d1e7df;
+  border-radius:14px;
+  outline:none;
   font-size:14px;
 }
 
+select:focus,
+input:focus{
+  border-color:var(--accent);
+  box-shadow:0 0 0 2px rgba(31,191,154,.25);
+}
+
+/* ===== CONTENT ===== */
+main{
+  padding:24px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:20px;
+}
+
+/* ===== PRODUCT CARD ===== */
+.product{
+  background:var(--card);
+  border-radius:20px;
+  padding:18px;
+  border:1px solid #e5efeb;
+  box-shadow:0 12px 30px rgba(0,0,0,.08);
+  transition:.25s;
+}
+
+.product:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.product h2{
+  margin:0 0 14px;
+  font-size:20px;
+  color:var(--accent-dark);
+  font-weight:700;
+}
+
+/* ===== PRICE ===== */
+.price{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#f4faf8;
+  padding:12px 14px;
+  border-radius:14px;
+  margin-bottom:10px;
+  border:1px dashed #bfe7da;
+  font-size:15px;
+}
+
+.price b{
+  color:var(--accent);
+  font-size:16px;
+}
+
+/* ===== PROMO ===== */
+.promo{
+  list-style:none;
+  padding:0;
+  margin:14px 0 0;
+}
+
+.promo li{
+  padding:10px 12px;
+  border-radius:12px;
+  background:#f0fdfa;
+  border:1px solid #ccf3e7;
+  margin-bottom:8px;
+  font-size:14px;
+  color:#065f46;
+}
+
+/* ===== STATUS ===== */
 .loading,
 .empty{
+  grid-column:1/-1;
   text-align:center;
-  padding:20px;
-  color:#666;
+  padding:50px;
+  color:var(--muted);
+  font-size:16px;
 }

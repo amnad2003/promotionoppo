@@ -16,13 +16,9 @@ storeData = {
         "Trede Up รุ่นที่รวมรายการสูงสุด5,000",
         "Trede Up รุ่นที่ไม่รวมรายการสูงสุด1,000",
         "[ของแถม8/256g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Bud3 มูลค่า799.-",
-        "Set2 ของแถมร้าน + Gift VoucHer400.- + หูฟังEnco Bud3 มูลค่า799.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer600.- + หูฟังEnco Bud3 มูลค่า799.-",
+        "Set1 Gift VoucHer600.- + หูฟังEnco Bud3 มูลค่า799.-",
         "[ของแถม12/256g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Bud3 มูลค่า799.-",
-        "Set2 ของแถมร้าน + Gift VoucHer400.- + หูฟังEnco Bud3 มูลค่า799.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer700.- + หูฟังEnco Bud3 มูลค่า799.-"
+        "Set1 Gift VoucHer700.- + หูฟังEnco Bud3 มูลค่า799.-"
       ]
     },
     {
@@ -41,13 +37,9 @@ storeData = {
         "Trede Up รุ่นที่รวมรายการสูงสุด5,000",
         "Trede Up รุ่นที่ไม่รวมรายการสูงสุด1,000",
         "[ของแถม12/256g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Bud3Pro มูลค่า999.-",
-        "Set2 ของแถมร้าน + Gift VoucHer500.- + หูฟังEnco Bud3Pro มูลค่า999.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer900.- + หูฟังEnco Bud3Pro มูลค่า999.-",
+        "Set1 Gift VoucHer900.- + หูฟังEnco Bud3Pro มูลค่า999.-",
         "[ของแถม12/512g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Bud3Pro มูลค่า999.-",
-        "Set2 ของแถมร้าน + Gift VoucHer500.- + หูฟังEnco Bud3Pro มูลค่า999.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer1,000.- + หูฟังEnco Bud3Pro มูลค่า999.-"
+        "Set1 Gift VoucHer1,000.- + หูฟังEnco Bud3Pro มูลค่า999.-"
       ]
     },
     {
@@ -65,9 +57,7 @@ storeData = {
         "Trede Up รุ่นที่รวมรายการสูงสุด4,000",
         "Trede Up รุ่นที่ไม่รวมรายการสูงสุด1,000",
         "[ของแถม12/256g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Air4 มูลค่า1,999.-",
-        "Set2 ของแถมร้าน + Gift VoucHer600.- + หูฟังEnco Air4 มูลค่า1,999.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer1,100.- + หูฟังEnco Air4 มูลค่า1,999.-"
+        "Set1 Gift VoucHer1,100.- + หูฟังEnco Air4 มูลค่า1,999.-"
       ]
     },
     {
@@ -85,9 +75,7 @@ storeData = {
         "Trede Up รุ่นที่รวมรายการสูงสุด4,000",
         "Trede Up รุ่นที่ไม่รวมรายการสูงสุด1,000",
         "[ของแถม12/512g]",
-        "Set1 ของแถมร้าน + หูฟังEnco Air4 มูลค่า1,999.-",
-        "Set2 ของแถมร้าน + Gift VoucHer700.- + หูฟังEnco Air4 มูลค่า1,999.-",
-        "Set3 ไม่รับของแถม + Gift VoucHer1,250.- + หูฟังEnco Air4 มูลค่า1,999.-"
+        "Set1 Gift VoucHer1,400.- + หูฟังEnco Air4 มูลค่า1,999.-"
       ]
     }
   ]
